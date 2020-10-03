@@ -46,7 +46,7 @@ namespace Assessment
         private static void serializing()
         {
 
-            Student s = new Student { Address = "Bangalore", Name = "Sachin", Phone = 83328392332 };
+            Student s = new Student { Address = "Bangalore", Name = "Saubhagya", Phone = 9985292332 };
             BinaryFormatter fm = new BinaryFormatter();
             FileStream fs = new FileStream("Check.bin", FileMode.OpenOrCreate, FileAccess.Write);
             fm.Serialize(fs, s);
